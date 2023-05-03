@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.message-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.message {
+    width: 50%;
+    border: 1px solid rgb(216, 216, 216);
+    min-height: 200px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.message h4 {
+    margin: 0;
+}
+
+.message p {
+    margin: 0;
+    font-size: 12px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+}
